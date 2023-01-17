@@ -1,8 +1,10 @@
-# Web-dan-Database-Booking-Hotel-dan-Rent-Car
-Website dan database booking hotel dan rental car
-Cara Install
+## Spesifikasi
+PHP ^8.1
+Database MySQL atau MariaDB
+SQlite (untuk automated testing)
+## Cara Install
 Clone atau download source code
-Para terminal, clone repo git clone https://github.com/RizaldiAMP/Web-dan-Database-Booking-Hotel-dan-Rent-Car
+Para terminal, clone repo git clone https://github.com/nipengg/WebHotel
 Jika tidak menggunakan Git, silakan Download Zip dan extract pada direktori web server (misal: xampp/htdocs)
 Jika menggunakan laragon silakan extract pada direktori laragon/www
 cd WebHotel
