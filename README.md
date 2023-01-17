@@ -1,0 +1,19 @@
+# Web-dan-Database-Booking-Hotel-dan-Rent-Car
+Website dan database booking hotel dan rental car
+Cara Install
+Clone atau download source code
+Para terminal, clone repo git clone https://github.com/RizaldiAMP/Web-dan-Database-Booking-Hotel-dan-Rent-Car
+Jika tidak menggunakan Git, silakan Download Zip dan extract pada direktori web server (misal: xampp/htdocs)
+Jika menggunakan laragon silakan extract pada direktori laragon/www
+cd WebHotel
+composer install
+npm install
+cp .env.example .env
+Jika tidak menggunakan Git, bisa copy file .env.example paste menjadi .env
+Pada terminal php artisan key:generate
+Buat database pada mysql untuk aplikasi ini
+Setting database pada file .env
+php artisan migrate untuk migrate table
+php artisan db:seed untuk eksekusi seeder akun
+php artisan serve
+Selesai
